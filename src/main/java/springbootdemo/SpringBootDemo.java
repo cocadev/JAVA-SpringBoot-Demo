@@ -11,7 +11,13 @@ public class SpringBootDemo {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Eugene Wang Harry Hello World!";
+		return "Welcome!";
+	}
+	
+	@RequestMapping("/about")
+	@ResponseBody
+	String about() {
+		return "This is about Page for you";
 	}
 	
 	public static void main(String[] args) throws Exception {
