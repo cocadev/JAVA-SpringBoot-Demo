@@ -2,6 +2,8 @@
 <classpath>
 	<classpathentry kind="src" output="target/classes" path="src/main/java">
 		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -11,12 +13,13 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" sourcepath="M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" sourcepath="M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE-sources.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE-sources.jar"/>
